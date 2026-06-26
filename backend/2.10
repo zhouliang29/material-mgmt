@@ -1,0 +1,9 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: pydantic in .\venv\Lib\site-packages (2.13.4)
+Requirement already satisfied: annotated-types>=0.6.0 in .\venv\Lib\site-packages (from pydantic) (0.7.0)
+Requirement already satisfied: pydantic-core==2.46.4 in .\venv\Lib\site-packages (from pydantic) (2.46.4)
+Requirement already satisfied: typing-extensions>=4.14.1 in .\venv\Lib\site-packages (from pydantic) (4.15.0)
+Requirement already satisfied: typing-inspection>=0.4.2 in .\venv\Lib\site-packages (from pydantic) (0.4.2)
+
+[notice] A new release of pip is available: 26.0.1 -> 26.1.2
+[notice] To update, run: C:\Users\Administrator\PycharmProjects\material-mgmt\backend\venv\Scripts\python.exe -m pip install --upgrade pip

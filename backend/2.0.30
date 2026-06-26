@@ -1,0 +1,7 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: sqlalchemy in .\venv\Lib\site-packages (2.0.23)
+Requirement already satisfied: typing-extensions>=4.2.0 in .\venv\Lib\site-packages (from sqlalchemy) (4.15.0)
+Requirement already satisfied: greenlet!=0.4.17 in .\venv\Lib\site-packages (from sqlalchemy) (3.5.1)
+
+[notice] A new release of pip is available: 26.0.1 -> 26.1.2
+[notice] To update, run: C:\Users\Administrator\PycharmProjects\material-mgmt\backend\venv\Scripts\python.exe -m pip install --upgrade pip
