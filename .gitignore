@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+*.err
+
+# Database
+*.db
+
+# Node
+node_modules/
+dist/
+
+# Temp
+start_vite.py
+check_*.py
+verify_*.py
+test_*.py

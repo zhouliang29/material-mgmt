@@ -62,7 +62,7 @@
 <script setup>
 import { ref, reactive, onMounted } from 'vue'
 import { ElMessage } from 'element-plus'
-import { getDepartmentList, createDepartment, updateDepartment, deleteDepartment } from '../../api/department'
+import { getDepartmentTree, createDepartment, updateDepartment, deleteDepartment } from '../../api/department'
 
 const treeData = ref([])
 const dialogVisible = ref(false)
@@ -83,8 +83,8 @@ onMounted(() => loadData())
 
 async function loadData() {
   try {
-    const res = await getDepartmentList({ page: 1, page_size: 1000 })
-    treeData.value = res.items || []
+    const res = await getDepartmentTree()
+    treeData.value = res || []
   } catch (e) { /* ignore */ }
 }
 

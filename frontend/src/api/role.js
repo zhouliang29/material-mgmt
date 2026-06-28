@@ -32,5 +32,5 @@ export function assignRolePermissions(roleId, permissionIds) {
 
 // 权限列表
 export function getPermissionList() {
-  return request.get('/permissions')
+  return request.get('/roles/permissions')
 }
